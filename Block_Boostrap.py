@@ -39,14 +39,14 @@ def DataBlocking(landa):
     for i in range (0,N):
         Auto_1[i] = AutocorrelationNormalized(i, landa)
         t1[i] = i
-        if (W == 0 and abs(Auto_1[i])<0.01):
+        if (W == 0 and abs(Auto_1[i])<0.05):
             W = i
 
     tau_int = 0.
     for i in range (-W, W+1):
-        tau_int += AutocorrelationNormalized(i, landa)
+        tau_int += 0.5*AutocorrelationNormalized(i, landa)
 
-    l = int(tau_int) + 1
+    l = int(2*tau_int) + 1
     landa_blocked = np.zeros(int(N/l))
 
     for i in range (0,int(N/l)):
