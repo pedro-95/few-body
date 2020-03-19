@@ -1,5 +1,7 @@
 # few-body
 
+Python code where the nuclear few-body problem is solved for different Well shapes.
+
 few_body.py: contains all the different functions used to perform the Monte Carlo integration.
 
 Block_Bootstrap.py: contains all the functions needed for the Simple Block Bootstrap method to estimate uncertainties.
