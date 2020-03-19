@@ -13,3 +13,5 @@ few_body_2_analysis.ipynb: is a notebook where all the plots and calculations ha
 plots: conatins all the plots used in the paper.
 
 samples: contains all the different samples obtained.
+
+REFERENCE: Monte Carlo Calculations of the Ground State of Three- and Four-Body Nuclei, M. H. Kalos, Phys. Rev. 128 Numer 4 (1962)
