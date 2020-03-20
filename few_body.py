@@ -69,7 +69,7 @@ def ExponentialWell(R_m, b):
     
     return suma
 
-def GreenFunctionMonteCarlo(N, Well, b_r, landa_0, Niter, Nthreshold, output = 0):
+def GreenFunctionMonteCarlo(N, Well, b_r, landa_0, Niter, Nthreshold, output = 0, R_as_output = False):
 
     R = np.zeros ((1,3*N))
     R_new = np.zeros ((1,3*N))
@@ -125,5 +125,8 @@ def GreenFunctionMonteCarlo(N, Well, b_r, landa_0, Niter, Nthreshold, output = 0
         R = R_new
 
         R_new = np.zeros ((1,3*N))
+    
+    if (R_as_output == True):
+        return R
     
     return landa
