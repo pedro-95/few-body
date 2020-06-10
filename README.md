@@ -2,6 +2,8 @@
 
 #### This repository contains Python scripts and Jupyter notebooks where a nuclear few-body problem is solved for different Well shapes by using a Monte Carlo integration algorithm (See Main Reference).
 
+### Content:
+
   - **Report.pdf**: contains a non-published article, which describes the resuts obtained by the code shown in this repository.
 
   - **few_body.py**: contains all the different functions used to perform the Monte Carlo integration.
