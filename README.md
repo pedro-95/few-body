@@ -1,6 +1,8 @@
 # few-body
 
-Python code where the nuclear few-body problem is solved for different Well shapes.
+## This repository contains Python scripts and jupyter notebooks where a nuclear few-body problem is solved for different Well shapes.
+
+Report.pdf: contains a non-published article, which describes the resuts obtained in this repository.
 
 few_body.py: contains all the different functions used to perform the Monte Carlo integration.
 
@@ -14,4 +16,4 @@ plots: conatins all the plots used in the paper.
 
 samples: contains all the different samples obtained.
 
-REFERENCE: Monte Carlo Calculations of the Ground State of Three- and Four-Body Nuclei, M. H. Kalos, Phys. Rev. 128 Numer 4 (1962)
+MAIN REFERENCE: Monte Carlo Calculations of the Ground State of Three- and Four-Body Nuclei, M. H. Kalos, Phys. Rev. 128 Numer 4 (1962)
