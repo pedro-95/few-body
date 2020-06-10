@@ -16,5 +16,5 @@
 
   - **samples**: folder with all the different samples obtained.
 
-### MAIN REFERENCE: 
+### Main Reference: 
 **Monte Carlo Calculations of the Ground State of Three- and Four-Body Nuclei, M. H. Kalos, Phys. Rev. 128 Numer 4 (1962)**
