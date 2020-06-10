@@ -1,6 +1,6 @@
 # few-body
 
-## This repository contains Python scripts and jupyter notebooks where a nuclear few-body problem is solved for different Well shapes.
+### This repository contains Python scripts and jupyter notebooks where a nuclear few-body problem is solved for different Well shapes.
 
 Report.pdf: contains a non-published article, which describes the resuts obtained in this repository.
 
